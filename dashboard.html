@@ -1,0 +1,317 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f2f3ef;
+        }
+
+        .card {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3%;
+            margin-left: 15%;
+
+
+        }
+
+
+        .nafi {
+            text-align: center;
+            border: 1px solid black;
+            width: 200px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: red;
+        }
+
+        .mama {
+            text-align: center;
+            border: 1px solid black;
+            width: 200px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: red;
+        }
+
+        .mama p {
+            text-align: center;
+        }
+
+        .leyla {
+            text-align: center;
+            border: 1px solid black;
+            width: 200px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: red;
+        }
+
+        input {
+            margin-left: 70%;
+            margin-top: 12px;
+            width: 15%;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .nav2 {
+            background-color: white;
+            width: 90%;
+            margin-left: auto;
+            height: 70px;
+        }
+
+
+        .div1 {
+            margin-top: 30px;
+            margin-left: 10%;
+        }
+
+        a {
+            display: block;
+        }
+
+        tr {
+            text-align: center;
+            padding: 5px;
+        }
+
+        h1 {
+            text-align: center;
+
+
+        }
+
+
+        .nav1 {
+            background-color: #0D1323;
+            position: fixed;
+            width: 220px;
+            height: 200vh;
+
+
+
+        }
+
+        .nav1 a {
+            color: black;
+            display: flex;
+            padding: 3px 6;
+            /* border: solid black; */
+            width: 80px;
+            margin-bottom: 25px;
+            border-radius: 20px;
+            background-color: white;
+            padding-left: 15px;
+            text-decoration: none;
+
+        }
+
+        td {
+            border: ridge black
+        }
+
+        .table1 {
+            border-collapse: collapse;
+            margin: auto;
+            color: black;
+            width: 70%;
+            height: 55%;
+        }
+
+        .table1 td {
+            background-color: white;
+
+        }
+
+        .table1 td button {
+            border-radius: 10px;
+            padding: 4px;
+            background-color: red;
+        }
+
+
+
+
+        /* .papa {
+            display: flex;
+            justify-content: center;
+            background-color: #0D1323;
+            gap: 15%;
+        }
+
+
+
+        .footer h2 {
+            color: white;
+        }
+
+        .footer a {
+            color: white;
+        }
+
+        .footer p {
+            color: white;
+
+        } */
+
+        @media(max-width:768px) {
+            .nav2 {
+                flex-direction: column;
+                align-items: center;
+                margin-left: 0;
+                width: 100%;
+            }
+
+            .card {
+                flex-direction: column;
+                align-items: center;
+                margin: 20px, 0;
+            }
+
+            .table1 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* p,
+            h1 {
+                text-align: center;
+            } */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="papi">
+        <nav class="nav1">
+            <ul>
+                <a href="dashboard.html">dashboard</a>
+                <a href="accueil.html">Connexion</a>
+                <a href="Profil.html">Profil</a><br>
+                <a href="Parametre.html">Parametre</a><br>
+                <a href="A propos.html">A propos</a><br>
+                <a href="index.html">Deconnexion</a>
+            </ul>
+        </nav>
+        <nav class="nav2">
+            <center>
+                <input type="text" name="search" id="search" placeholder="Recherche">
+            </center>
+
+
+        </nav>
+    </div>
+
+    <div class="card">
+
+        <div class="nafi">
+            <p>Total des Taches</p>
+            <p>4</p>
+        </div>
+
+        <div class="mama">
+            <p>Total des Personnes</p>
+            <p>4</p>
+        </div>
+
+        <div class="leyla">
+            <p>Progres </p>
+            <p>70%</p>
+        </div>
+
+    </div>
+
+    <section>
+        <div class="div1">
+            <h1> Bienvenue au dashboard du Task-Manager</h1>
+
+            <table class="table1">
+                <tr>
+                    <td>Titre</td>
+                    <td>Description</td>
+                    <td>Image</td>
+                    <td>Statut</td>
+                    <td>Date</td>
+                    <td>Priorite</td>
+                    <td>Action</td>
+                </tr>
+                <tr>
+                    <td>Reunion Projet</td>
+                    <td>Preparer la Reunion AEB</td>
+                    <td><img src="images/reunion.jpg" alt="JS" width="60px"></td>
+                    <td>En cours</td>
+                    <td>22 Mai</td>
+                    <td>Haute</td>
+                    <td><button>Modifier</button> <button>Supprimer</button></td>
+                </tr>
+                <tr>
+                    <td>Projet Maison</td>
+                    <td>Preparer la Maquette</td>
+                    <td><img src="images/maquette.jpg" alt="Reunion" width="60px"></td>
+                    <td>A venir</td>
+                    <td>1 Juin</td>
+                    <td>Haute</td>
+                    <td><button>Modifier</button> <button>Supprimer</button></td>
+                </tr>
+                <tr>
+                    <td>Java Script </td>
+                    <td> Apprendre la Technologie </td>
+                    <td><img src="images/js.jpg" alt="" width="60px"></td>
+                    <td> En cours </td>
+                    <td>22 Juin </td>
+                    <td> Haute </td>
+                    <td><button>Modifier</button> <button>Supprimer</button> </td>
+                </tr>
+                <tr>
+                    <td> htmlcss</td>
+                    <td> Notion Importante </td>
+                    <td><img src="images/htmlcss.jpg" alt="" width="60px"></td>
+                    <td> Terminee </td>
+                    <td> 15 Mai </td>
+                    <td> Moyenne </td>
+                    <td> <button>Modifier</button> <button>Supprimer</button> </td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+    <!-- <section>
+        <footer class="papa">
+            <div class="footer">
+                <h2> Navigation</h2>
+                <a href="dashboard.html">dashboard</a>
+                <a href="accueil.html">accueil</a>
+                <a href="Profil.html">Profil</a>
+                <a href="Parametre.html">Parametre</a>
+                <a href="A propos.html">A propos</a>
+                <a href="index.html">Deconnexion</a>
+            </div>
+
+            <div class="footer">
+                <h2> Contact</h2>
+                <p>Email : amicale.bf@esmt.sn</p>
+                <p>Telephone: +226 60 02 78 38</p>
+                <p>Localisation : ESMT, Rocade Fann Bel Air, Dakar</p>
+            </div>
+
+            <div class="footer">
+                <h2> Navigation</h2>
+                <a href="dashboard.html">dashboard</a>
+                <a href="accueil.html">accueil</a>
+                <a href="Profil.html">Profil</a>
+                <a href="Parametre.html">Parametre</a>
+                <a href="A propos.html">A propos</a>
+                <a href="index.html">Deconnexion</a>
+            </div>
+        </footer>
+    </section> -->
+
+</body>
+
+</html>

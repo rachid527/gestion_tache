@@ -1,0 +1,164 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f2f3ef;
+            margin: 0;
+        }
+
+        a {
+            display: block;
+        }
+
+
+
+        button {
+            width: 200px;
+            border-radius: 20px;
+            background-color: blue;
+        }
+
+        .div2 a {
+            color: white;
+        }
+
+        label {
+            color: brown;
+        }
+
+        input {
+            border: ridge black;
+            border-radius: 20px;
+            background-color: azure;
+        }
+
+        .div2 {
+            text-align: center;
+            padding-right: 500px;
+            padding-left: 500px;
+
+        }
+
+        form {
+
+            text-align: center;
+            border: solid blue;
+            margin-top: 100px;
+            border-radius: 20px;
+            background-color: aqua;
+        }
+
+        .nav1 {
+            text-align: center;
+            background-color: white;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .nav1 a {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 5px;
+            justify-content: center;
+            color: white;
+            background-color: red;
+            margin-bottom: 30px;
+            margin-top: 15px;
+            text-decoration: none;
+        }
+
+        .papa {
+            display: flex;
+            justify-content: center;
+            background-color: #0D1323;
+            gap: 15%;
+        }
+
+
+
+        .footer h2 {
+            color: white;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer p {
+            color: white;
+
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="div1">
+        <nav class="nav1">
+            <a href="dashboard.html">dashboard</a>
+            <a href="accueil.html">accueil</a>
+            <a href="Profil.html">Profil</a>
+            <a href="Parametre.html">Parametre</a>
+            <a href="A propos.html">A propos</a>
+            <a href="index.html">Deconnexion</a>
+            <a href="accueil.html">Se Connecter</a>
+        </nav>
+
+    </div>
+
+    <div class="div2">
+        <form action="connexion.html">
+            <h1> Connexion au Compte</h1>
+            <label for="Username">Username</label> <br>
+            <input type="text" id="Username" name="Username" placeholder="Entrez votre Username"> <br>
+            <label for="Password">Password</label> <br>
+            <input type="text" id="Password" name="Password" placeholder="Entrez votre Password"> <br> <br>
+            <button><a href="dashboard.html">Connexion</a></button>
+            <p> Vous n'avez pas de compte ?</p>
+            <p> Password ou Username oublier ?</p>
+
+        </form>
+        <img src="images/connexion.jpg" alt="image connexion">
+    </div>
+
+    <section>
+        <footer class="papa">
+            <div class="footer">
+                <h2> Navigation</h2>
+                <a href="dashboard.html">dashboard</a>
+                <a href="accueil.html">accueil</a>
+                <a href="Profil.html">Profil</a>
+                <a href="Parametre.html">Parametre</a>
+                <a href="A propos.html">A propos</a>
+                <a href="index.html">Deconnexion</a>
+            </div>
+
+            <div class="footer">
+                <h2> Contact</h2>
+                <p>Email : amicale.bf@esmt.sn</p>
+                <p>Telephone: +226 60 02 78 38</p>
+                <p>Localisation : ESMT, Rocade Fann Bel Air, Dakar</p>
+            </div>
+
+            <div class="footer">
+                <h2> Reseaux Sociaux</h2>
+                <a href="+22660027838">Whatsapp</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://x.com/">Twitter</a>
+
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>

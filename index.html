@@ -1,0 +1,303 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a {
+            display: block;
+        }
+
+
+        body {
+            background-image: url(images/task.jpgg);
+            background-repeat: no-repeat;
+            /* pas de répétition */
+            background-size: cover;
+            margin: 0;
+        }
+
+        /* .header h1 {
+            text-align: center;
+            margin-bottom: 30%;
+        } */
+
+        .nav1 {
+            text-align: center;
+            background-color: white;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .nav1 a {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 5px;
+            justify-content: center;
+            color: white;
+            background-color: red;
+            margin-bottom: 30px;
+            margin-top: 15px;
+            text-decoration: none;
+        }
+
+        .papi {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 5%;
+
+        }
+
+        .div2 {
+            text-align: center;
+        }
+
+        .div3 {
+            border: 1px solid black;
+            width: 25%;
+            padding-bottom: 7%;
+            border-radius: 10px;
+            background-color: red;
+
+        }
+
+        .div3 h2 {
+            text-align: center;
+            margin-top: 10%;
+            color: white;
+        }
+
+        .div3 p {
+            color: white;
+        }
+
+        .div4 {
+            border: 1px solid black;
+            width: 25%;
+            padding-bottom: 7%;
+            border-radius: 10px;
+            background-color: red;
+        }
+
+        .div4 h2 {
+            text-align: center;
+            margin-top: 10%;
+            color: white;
+        }
+
+        .div4 p {
+            color: white;
+        }
+
+        .div5 {
+            border: 1px solid black;
+            width: 25%;
+            padding-bottom: 7%;
+            border-radius: 10px;
+            background-color: red;
+        }
+
+        .div5 h2 {
+            text-align: center;
+            margin-top: 10%;
+            color: white;
+        }
+
+        .div5 p {
+            color: white;
+        }
+
+        .papa {
+            display: flex;
+            justify-content: center;
+            background-color: #0D1323;
+            gap: 15%;
+        }
+
+        .rachid {
+            text-align: center;
+        }
+
+
+
+        .footer h2 {
+            color: white;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer p {
+            color: white;
+
+        }
+
+        .enum {
+            display: flex;
+            justify-content: center;
+            margin-left: 90px;
+            margin-bottom: 5px;
+        }
+
+        .tache5 img {
+            margin-right: 50px;
+        }
+
+        .tache6 img {
+            margin-left: 27px;
+        }
+
+
+
+        @media (max-width:768px) {
+
+            /* NAVBAR */
+            .nav1 {
+
+                display: flex;
+
+                flex-direction: column;
+                align-items: center;
+
+            }
+
+
+            .nav1 a {
+                font-size: 14px;
+
+            }
+
+            .papi {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .papa {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <nav class="nav1">
+            <a href="dashboard.html">dashboard</a>
+            <a href="index.html">accueil</a>
+            <a href="Profil.html">Profil</a>
+            <a href="Parametre.html">Parametre</a>
+            <a href="A propos.html">A propos</a>
+            <a href="index.html">Deconnexion</a>
+            <a href="connexion.html">Se Connecter</a>
+        </nav>
+
+    </div>
+
+    <div class="header">
+
+        <img src="images/lyam.jpg" alt="Photo de Taches" style="width: 100%; height: auto;">
+        <!-- <h1>Bienvenue a la Gestion de Taches</h1> -->
+    </div>
+
+    <section>
+        <div class="div2">
+            <h2>A Propos de la gestion des taches </h2>
+            <p>L'application web a pour mission de gerer les taches des Utilisateurs, favoriser leur intégration et
+                promouvoir la solidarité dans l'environnement de travail .</p>
+
+        </div>
+
+        <div class="papi">
+            <div class="div3">
+                <h2> Leadership </h2>
+                <p>Le Leadership est un processus qui permet de gerer des groupes de personnes ou ensemble d'individus
+                </p>
+            </div>
+
+            <div class="div4">
+                <h2> Union </h2>
+                <p>La gestion de Tache necessite une implication de tout un chacun</p>
+            </div>
+
+            <div class="div5">
+                <h2> Organisation </h2>
+                <p>Elle necessite egalement une organisation de tout un chacun de la meilleur facons possible </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="rachid">
+            <h2>Quelques Taches Recentes de Notre Application</h2>
+        </div>
+        <div class="enum">
+            <div class="tache1">
+                <img src="images/tache1.jpg" alt="tache1" style="width: 70%;height: auto;">
+
+            </div>
+            <div class="tache2">
+                <img src="images/tache2.jpg" alt="tache2" style="width: 70%;height: 100%;">
+
+
+            </div>
+            <div class="tache3">
+                <img src="images/tache3.jpg" alt="tache1" style="width: 70%;height: 100%;">
+
+            </div>
+        </div>
+
+        <div class="enum">
+            <div class="tache4">
+                <img src="images/tache4.jpg" alt="tache1" style="width: 65%;height: 90%;">
+            </div>
+            <div class="tache5">
+                <img src="images/tache5.jpg" alt="tache2" style="width: 80%;height: 92%;">
+            </div>
+            <div class="tache6">
+                <img src="images/tache6.jpg" alt="tache1" style="width: 66%;height: 92%;">
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <footer class="papa">
+            <div class="footer">
+                <h2> Navigation</h2>
+                <a href="dashboard.html">dashboard</a>
+                <a href="index.html">accueil</a>
+                <a href="Profil.html">Profil</a>
+                <a href="Parametre.html">Parametre</a>
+                <a href="A propos.html">A propos</a>
+                <a href="index.html">Deconnexion</a>
+            </div>
+
+            <div class="footer">
+                <h2> Contact</h2>
+                <p>Email : amicale.bf@esmt.sn</p>
+                <p>Telephone: +226 60 02 78 38</p>
+                <p>Localisation : ESMT, Rocade Fann Bel Air, Dakar</p>
+            </div>
+
+            <div class="footer">
+                <h2> Reseaux Sociaux</h2>
+                <a href="+22660027838">Whatsapp</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+                <a href="https://x.com/">Twitter</a>
+
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
